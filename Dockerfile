@@ -16,5 +16,5 @@ RUN apt-get update && apt-get install -qq -y --fix-missing --no-install-recommen
 RUN gem install bundler
 
 RUN mkdir -p $WORKDIR
-WORKDIR $INSTALL_PATH
+WORKDIR $WORKDIR
 
